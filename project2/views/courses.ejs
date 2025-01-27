@@ -1,0 +1,30 @@
+<%- include('partials/header') %>
+
+<%- include('partials/navbar') %>
+
+  <!-- About Us Section -->
+  <section class="about-header text-center">
+    <div class="container">
+      <h1 class="display-4"><%= title %></h1>
+      <p class="lead">We are a passionate team committed to delivering top-notch services.</p>
+    </div>
+  </section>
+
+  <!-- Team Members Section -->
+  <section class="container mt-5">
+    <h2 class="text-center mb-4">Our <%- title %></h2>
+    <div class="row">
+      <!-- Team Member 1 -->
+       <% courses.forEach(function(item){ %>
+      <div class="col-md-4 team-member">
+        <!-- <img src="https://via.placeholder.com/150" alt="Team Member 1" class="img-fluid"> -->
+        <h4><%= item['name']  %></h4>
+        <p><%= item['author']  %></p>
+        <p><%= item['desc']  %></p>
+        <p><a href="/courses/<%= item['name'] %>" class="btn btn-secondary">View Details</a></p>
+      </div>
+      <% }); %>
+     
+    </div>
+  </section>
+<%- include('partials/footer') %>

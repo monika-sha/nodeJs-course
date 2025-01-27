@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+<%- include('partials/navbar') %>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <!-- Course Details Card -->
+         <%  if(course != null){ %>
+        <div class="card">
+          <div class="card-header bg-primary text-white">
+            <h3><%= course.name %></h3>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Course Description:</h5>
+            <p class="card-text"><%= course.desc %></p>
+            <hr>
+            <h5>Author: <%= course.author %></h5>
+            <p>Created At: <%= course.created_at.toLocaleDateString() %></p>
+          </div>
+          <div class="card-footer text-muted">
+            <a href="/" class="btn btn-secondary">Back</a>
+          </div>
+        </div>
+        <% } %>
+        
+      </div>
+    </div>
+  </div>
+
+<%- include('partials/footer') %>

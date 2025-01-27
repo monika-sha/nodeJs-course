@@ -1,0 +1,11 @@
+{
+  "name": "monika-calculationpackage",
+  "version": "1.0.0",
+  "description": "This is package related to sum module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monika sharma",
+  "license": "ISC"
+}

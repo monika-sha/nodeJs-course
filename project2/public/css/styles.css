@@ -1,0 +1,51 @@
+/* about us  */
+
+/* Custom styling for the About Us page */
+.about-header {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.team-member h4 {
+  margin-top: 15px;
+}
+
+.team-member p {
+  color: gray;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+/* contact us page  */
+
+/* Custom styling for the Contact Us page */
+.contact-header {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 30px;
+}
+/* 
+.footer {
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    color: #ffff;
+} */
