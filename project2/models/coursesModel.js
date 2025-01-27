@@ -26,3 +26,4 @@ function validateData(course){
 
 exports.Course = Course
 exports.validateData = validateData
+

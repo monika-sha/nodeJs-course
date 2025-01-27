@@ -41,3 +41,4 @@ console.log('Folder content ' + dirContent)
 //delete directory
  fs.rmdirSync('newDir')
 console.log('directory removed')
+
